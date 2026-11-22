@@ -1,0 +1,82 @@
+body 
+{
+  font: 28px Georgia, serif;
+  text-align: center;
+}
+
+h1 
+{
+  font: bold 40px system-ui, Helvetica, Sans-Serif;
+}
+
+input[type="number"] 
+{
+  padding: 20px;
+  color: #999;
+  font: bold 40px system-ui, Helvetica, Sans-Serif;
+  width: 120px;
+  margin: 10px 0;
+}
+
+#NahodneCislo 
+{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 2px black;
+  border-style: solid;
+  font-size: 80px;
+  min-width: 80px;       /* začne na 80px a zväčší sa podľa veľkosti čisla */
+  width: fit-content;      
+  padding: 10px 24px;
+  height: 80px;
+  margin-top: 24px;
+  display: inline-flex;    
+  justify-content: center;
+  align-items: center;
+}
+
+#getit
+{
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 5px solid;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+#getit:hover
+{
+    background-color: #0099ff;
+    border-color: lightskyblue;
+    color: white;
+}
+#getit:active
+{
+    background-color: #00ddff;
+    color: black;
+}
+
+button
+{
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+button:hover
+{
+    background-color: #0099ff;
+    color: black;
+}
+button:active
+{
+    background-color: #00ddff;
+    color: white;
+}

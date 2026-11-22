@@ -1,0 +1,110 @@
+body
+{
+    background: url('https://cdn.kudyznudy.cz/files/4f/4f0dade0-2aa5-46bd-9eac-7a510c366d8d.webp?v=20261015111822');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body h1
+{
+    color: white;
+    background: #00bb00;
+    display: inline-flex;
+    font-size: 40px;
+    margin-top: 10px;
+  flex-direction: column;
+  align-items: stretch;
+  border-radius: 10px;
+  height: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body h2
+{
+    color: white;
+    display: inline-flex;
+    font-size: 20px;
+    margin-left: 700px;
+  flex-direction: column;
+  align-items: stretch;
+  height: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#end
+{
+    color: white;
+    background: #00bb00;
+    display: inline-flex;
+    font-size: 40px;
+    margin-top: 4px;
+  flex-direction: column;
+  align-items: stretch;
+  border-radius: 5px;
+  height: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.countdowns 
+{
+  color: white;
+  background: #ff0055;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 5px;
+}
+
+.countdowns div .value
+{
+    display: block;
+    font-size: 3rem;
+    font-weight: 200;
+}
+
+.value, .label 
+{
+  display: flex;
+  justify-content: space-between; 
+  gap: 16px;
+  white-space: nowrap;
+}
+
+.value 
+{
+  display: block;
+  font-size: 3rem;
+  font-weight: 200;
+  line-height: 1.1;
+}
+
+.label 
+{
+  font-size: 30px;
+  margin-top: 4px;
+}
+
+button
+{
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-top: 5px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+button:hover
+{
+    background-color: #0099ff;
+    color: black;
+}
+button:active
+{
+    background-color: #00ddff;
+    color: white;
+}
